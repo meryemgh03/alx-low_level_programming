@@ -1,10 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Is it possitive or negative
- * Return : 0
+ * main - Entry point
+ * Program checks if the n number is positive or negative
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
 	int n;
