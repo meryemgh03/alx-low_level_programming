@@ -3,24 +3,20 @@
  * main - Lower and upper
  * Return: 0
  */
+
 int main(void)
 {
-	char l;
-	
-	char u;
-	
-	l = 'a';
-	u = 'A';
-	while (l <= 'z')
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-		putchar (l);
-		l++;
+		putchar('a' + i);
 	}
-	while (u <= 'z')
+	for (i = 0; i < 26; i++)
 	{
-		putchar (u);
-		u++;
+		putchar('A' + i);
 	}
+
 	putchar('\n');
 	return (0);
 }
