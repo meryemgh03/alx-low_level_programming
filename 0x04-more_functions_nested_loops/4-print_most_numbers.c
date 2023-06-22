@@ -8,9 +8,9 @@ void print_most_numbers(void)
 {
 	int y = 0;
 
-	for (; x <= 9; x++)
+	for (; y <= 9; y++)
 	{
-		if (x == 2 || x == 4)
+		if (y == 2 || y == 4)
 		{
 			continue;
 		}
